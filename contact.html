@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+     <!--linked reset.css file for compatibility between browsers-->
+     <link rel="stylesheet" href="assets/css/reset.css">
+
+     <!--Linked CSS Style Sheet-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Basic-Portfolio</title>
+</head>
+
+<body>
+<header id="masthead">
+    <div class="container">
+        <a href="index.html" id="logo">Brittany Taylor</a>
+        <nav>
+            <a href="index.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<div id="main-container" class="container">
+<section class="main-section">
+    <h1>Contact</h1>
+ 
+    <form id="contact-form">
+        <ul>
+            <li>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="John Smith" required="required">
+            </li>
+        
+            <li>
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
+            </li>
+
+            <li>
+                <label for="message">Message</label>
+                <textarea name="name" id="name" required="required">
+                </textarea>
+            </li>
+        </ul>
+        <input type="submit" name="submit">
+    </form>
+</section>
+
+<section>
+    <div>
+        <h2>Connect with Me</h2>
+        <img src="assets/images/github-128.png" class="social" alt="Github">
+        <img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn">
+        <img src="assets/images/stack-128.png" class="social" alt="Stack Overflow">
+    </div>
+</section>
+</div>
+
+<footer>
+    <div class="container">
+        &copy; Copyright 2019 Brittany Taylor
+    </div>
+</footer>
+    
+</body>
+</html>
